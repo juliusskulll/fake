@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Showdown Status</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0b0f1a, #111827);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 700px;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      color: #4f9cff;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #ff4d4d;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+
+    .status {
+      margin-top: 25px;
+      padding: 15px;
+      border-radius: 8px;
+      background: rgba(255, 77, 77, 0.1);
+      border: 1px solid rgba(255, 77, 77, 0.4);
+      color: #ff8080;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background: #4f9cff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #3b82f6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">SHOWDOWN</div>
+
+  <h1>Leaderboard Removal Notice</h1>
+
+  <p>
+    After a thorough review of recent competitive activity, your account has been found in violation of the tournament rules and fair play policy.
+  </p>
+
+  <div class="status">
+    You have been removed from the leaderboard due to cheating.
+  </div>
+
+  <p>
+    All associated scores, rankings, and rewards have been revoked. This decision is final and based on verified evidence collected by our anti-cheat systems.
+  </p>
+
+  <button onclick="location.reload()">Refresh Status</button>
+
+  <div class="footer">
+    Competitive Integrity Team • Showdown Series
+  </div>
+</div>
+
+</body>
+</html>
